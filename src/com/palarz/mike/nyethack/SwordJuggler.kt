@@ -1,3 +1,5 @@
+package com.palarz.mike.nyethack
+
 fun main(args: Array<String>) {
     var swordsJuggling: Int? = null
     val isJugglingProficient = (1..3).shuffled().last() == 3
@@ -16,8 +18,8 @@ fun main(args: Array<String>) {
 }
 
 fun proficiencyCheck(swordsJuggling: Int?){
-//    swordsJuggling ?: throw UnskilledSwordJugglerException()
-    checkNotNull(swordsJuggling, { "Player cannot juggle swords" })
+//    swordsJuggling ?: throw com.palarz.mike.nyethack.UnskilledSwordJugglerException()
+    checkNotNull(swordsJuggling, { "com.palarz.mike.nyethack.Player cannot juggle swords" })
 }
 
-class UnskilledSwordJugglerException(): IllegalStateException("Player cannot juggle swords")
+class UnskilledSwordJugglerException(): IllegalStateException("com.palarz.mike.nyethack.Player cannot juggle swords")

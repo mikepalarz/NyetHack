@@ -1,5 +1,6 @@
+package com.palarz.mike.nyethack
+
 import java.io.File
-import kotlin.math.roundToInt
 
 const val TAVERN_NAME = "Taernyl's Folly"
 
@@ -63,7 +64,7 @@ private fun placeOrder(patronName: String, menuData: String) {
 
     val phrase = if (name == "Dragon's Breath"){
         "$patronName exclaims: ${toDragonSpeak("Ah, delicious $name")}"
-//        "Madrigal exclaims: ${toDragonSpeak("DRAGON'S BREATH: IT'S GOT WHAT ADVENTURERS CRAVE")}"
+//        "Madrigal exclaims: ${com.palarz.mike.nyethack.toDragonSpeak("DRAGON'S BREATH: IT'S GOT WHAT ADVENTURERS CRAVE")}"
     } else {
         "$patronName says: Thanks for the $name"
     }
