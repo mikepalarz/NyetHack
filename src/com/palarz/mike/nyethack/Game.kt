@@ -4,6 +4,10 @@ fun main(args: Array<String>) {
     val player = Player("Madrigal")
     player.castFireball()
 
+    var currentRoom: Room = Townsquare()
+    println(currentRoom.description())
+    println(currentRoom.load())
+
     val auraColor = player.auraColor()
 
     // Printing the resulting player status
