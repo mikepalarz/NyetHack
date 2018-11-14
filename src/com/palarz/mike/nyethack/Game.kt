@@ -1,7 +1,7 @@
 package com.palarz.mike.nyethack
 
 fun main(args: Array<String>) {
-    val player = Player()
+    val player = Player("Madrigal")
     player.castFireball()
 
     val auraColor = player.auraColor()

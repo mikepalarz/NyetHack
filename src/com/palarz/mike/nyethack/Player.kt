@@ -1,14 +1,24 @@
 package com.palarz.mike.nyethack
 
-class Player{
-    var healthPoints = 89
-    val isBlessed = true
-    private val isImmortal = false
+import java.io.File
 
-    var name = "madrigal"
-    get() = field.capitalize()
+class Player(_name: String, var healthPoints: Int = 100, val isBlessed: Boolean, private val isImmortal: Boolean){
+
+    var name = _name
+    get() = "${field.capitalize()} of $hometown"
     private set(value) {
         field = value.trim()
+    }
+
+    constructor(name: String) : this(name,isBlessed = true, isImmortal = false) {
+        if (name.toLowerCase() == "kar") healthPoints = 40
+    }
+
+    val hometown by lazy { selectHometown() } 
+
+    init {
+        require(healthPoints > 0) {"healthPoints must be greater than zero."}
+        require(name.isNotBlank()) {"Player must have a name"}
     }
 
     fun auraColor(): String {
@@ -32,4 +42,6 @@ class Player{
 
     fun castFireball(numberOfFireballs: Int = 2) =
             println("A glass of Fireball springs into existence. (x$numberOfFireballs)")
+
+    private fun selectHometown(): String = File("data/towns.txt").readLines().shuffled().first()
 }
