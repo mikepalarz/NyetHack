@@ -1,5 +1,6 @@
 package com.palarz.mike.nyethack
 
+import com.palarz.mike.nyethack.extensions.random as randomizer
 import java.io.File
 
 class Player(_name: String,
@@ -60,5 +61,5 @@ class Player(_name: String,
     fun castFireball(numberOfFireballs: Int = 2) =
             println("A glass of Fireball springs into existence. (x$numberOfFireballs)")
 
-    private fun selectHometown(): String = File("data/towns.txt").readLines().shuffled().first()
+    private fun selectHometown(): String = File("data/towns.txt").readLines().randomizer()
 }

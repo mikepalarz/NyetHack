@@ -1,5 +1,6 @@
 package com.palarz.mike.nyethack
 
+import com.palarz.mike.nyethack.extensions.random
 import java.io.File
 
 const val TAVERN_NAME = "Taernyl's Folly"
@@ -26,8 +27,8 @@ fun main(args: Array<String>) {
     }
 
     (0..9).forEach {
-        val first = patronList.shuffled().first()
-        val last = lastName.shuffled().first()
+        val first = patronList.random()
+        val last = lastName.random()
         val name = "$first $last"
         uniqueNames += name
     }
@@ -37,7 +38,7 @@ fun main(args: Array<String>) {
 
     var orderCount = 0
     while (orderCount <= 9){
-        placeOrder(uniqueNames.shuffled().first(), menuList.shuffled().first())
+        placeOrder(uniqueNames.random(), menuList.random())
         orderCount++
     }
 

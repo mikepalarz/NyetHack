@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e55e1b7a-9e44-451b-8de4-cb2dff8a3685" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Creature.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/extensions/IterableExt.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Game.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Game.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,31 +18,32 @@
     <session id="2011552169">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="15" />
+          <entry key="kt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="15" />
+          <entry key="Kotlin" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Kotlin Console" value="1321" />
-          <entry key="kt" value="6738" />
+          <entry key="kt" value="6825" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="8059" />
+          <entry key="Kotlin" value="8146" />
         </counts>
       </usages-collector>
     </session>
@@ -68,12 +68,36 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Game.kt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+            <state relative-caret-position="616">
+              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding>
+                <element signature="e#34#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="63" column="90" selection-start-line="63" selection-start-column="90" selection-end-line="63" selection-end-column="90" />
+              <folding>
+                <element signature="e#34#103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/extensions/IterableExt.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -98,10 +122,12 @@
         <option value="$PROJECT_DIR$/src/Player.kt" />
         <option value="$PROJECT_DIR$/src/Game.kt" />
         <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Navigation.kt" />
-        <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt" />
         <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Creature.kt" />
         <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Room.kt" />
         <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Game.kt" />
+        <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/extensions/IterableExt.kt" />
+        <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt" />
+        <option value="$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt" />
       </list>
     </option>
   </component>
@@ -117,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,12 +165,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Tavern&#9;FILE&#9;file:///home/mike/IdeaProjects/NyetHack/src/Tavern.kt" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542336381218" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542419446064" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -164,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.com.palarz.mike.nyethack.GameKt">
     <configuration name="com.palarz.mike.nyethack.GameKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="NyetHack" />
       <option name="VM_PARAMETERS" />
@@ -234,8 +260,8 @@
     <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895397" visible="true" weight="0.25506938" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.501046" side_tool="true" visible="true" weight="0.25506938" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -243,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2876569" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43723848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,27 +299,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Navigation.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -313,8 +322,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Game.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="576">
           <caret line="87" column="30" selection-start-line="87" selection-start-column="30" selection-end-line="87" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/extensions/IterableExt.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Tavern.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding>
+            <element signature="e#34#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/palarz/mike/nyethack/Player.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="63" column="90" selection-start-line="63" selection-start-column="90" selection-end-line="63" selection-end-column="90" />
+          <folding>
+            <element signature="e#34#103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
